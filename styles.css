@@ -1,0 +1,187 @@
+/* Reset y básicos */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  background-color: #023020;
+  color: #333;
+}
+
+/* Estilo del header completo */
+header {
+  width: 100%;                  
+  background-color: #f7ba12;    
+  display: flex;                
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;           
+  box-sizing: border-box;       
+}
+
+.logo {
+
+  width: 60px;             
+  height: 60px;            
+  border: 3px solid #333;  
+  border-radius: 50%;      
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  font-size: 2rem;
+  font-weight: bold;
+  color: #154d04;
+  background-color:#fcf7e0;  
+  cursor: default;         
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcf7e0; 
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* Galería de inicio */
+.galeria-inicio {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.galeria-inicio a img {
+  width: 250px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.galeria-inicio a img:hover {
+  transform: scale(1.05);
+  
+}
+
+h2 {
+  color:#023020; 
+  font-weight: bold;
+   margin-top: 2rem;    
+  margin-bottom: 1.2rem;
+}
+h3 {
+  color:#023020;
+  font-weight: bold;
+   margin-top: 2rem;    
+  margin-bottom: 1.2rem;
+}
+
+.p {
+    color:#023020;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Secciones de platos */
+.plato {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color:#fcf7e0; 
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.foto-plato {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.contenido {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.origen {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  background: #f7ba12;
+  color:#fcf7e0; 
+  padding: 1rem 2rem; 
+  bottom:0;
+}
+
+.logo-footer {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+}
+.galeria-inicio {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #023020;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 150px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(255, 203, 14);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.05);
+}
+
+.item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.item p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #e0b300;
+}
+
+
+  
+
