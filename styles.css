@@ -13,6 +13,7 @@ body {
   color: #333;
 }
 
+/* Estilo del header completo */
 header {
   width: 100%;                  
   background-color: #f7ba12;    
@@ -57,14 +58,14 @@ nav a:hover {
   color: #023020;
 }
 
-.galeria-inicio {
+.galeria-index {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.galeria-inicio a img {
+.galeria-index a img {
   width: 250px;
   border-radius: 12px;
   cursor: pointer;
@@ -72,7 +73,7 @@ nav a:hover {
   transition: transform 0.3s;
 }
 
-.galeria-inicio a img:hover {
+.galeria-index a img:hover {
   transform: scale(1.05);
   
 }
@@ -155,7 +156,7 @@ footer {
   border-radius: 10px;
 }
 
-.galeria-inicio {
+.galeria-index {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -191,8 +192,3 @@ footer {
   font-size: 1rem;
   color: #e0b300;
 }
-
-
-  
-
-
